@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet" />
+  <link rel="icon" href="images/profile.png">
+  <title>Naseem Khan</title>
+</head>
+
+<body>
+
+  <!-- =============== header starts ============ -->
+  <div class="header" id="home">
+    <div class="navigation" id="nav-bar">
+      <div class="logo">
+        <a href="#home"><h2><span>N</span>aseem</h2></a>
+      </div>
+
+      <nav>
+        <ul id="links">
+          <li><a href="#home">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#services">services</a></li>
+          <li><a href="#work">portfolio</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+        <i class="fa-solid fa-bars" id="nav-icon"></i>
+      </nav>
+    </div>
+
+    <!-- ====== header content ======= -->
+
+    <div class="container">
+      <div class="row header-container">
+        <div class="content-text" data-aos="fade-right">
+          <p>Hello, my name is</p>
+          <h1>Naseem Khan</h1>
+          <h2>And I'm a <span class="auto-typing"></span></h2>
+          <a href="#contact"><button class="btn">Contact Me</button></a>
+        </div>
+        <div class="content-img" data-aos="slide-left">
+          <img src="images/profile.png" alt="">
+        </div>
+
+      </div>
+    </div>
+    <span id="scroll" onclick="scrollFunction()"><i class="fa-solid fa-arrow-up"></i></span>
+  </div>
+  <!-- =============== header ends =============== -->
+
+  <!-- =============== about starts =============== -->
+
+  <div class="container" id="about">
+    <div class="row about-container">
+      <div class="about-img" data-aos="fade-right">
+        <img src="images/about-img.png" alt="">
+      </div>
+
+      <div class="about-text" data-aos="fade-left">
+        <div class="col-2">
+          <h1 class="title" data-aos="fade-left">about me</h1>
+          <p style="font-size: 15px;"><span style="font-weight: 700;">Hi I'm Naseem Khan</span>
+            an outgoing, dedicated, and open-minded person. I get across to people and adjust to changes with ease. I
+            believe that a person should work on developing their professional skills and learning new things all the
+            time. Currently, I am looking for new career opportunities my current job position cannot provide.
+          </p>
+        </div>
+
+        <div class="tab-titles">
+          <h3 class="tab-links active-link" onclick="openTab('skills')">skills</h3>
+          <h3 class="tab-links" onclick="openTab('experience')">experience</h3>
+          <h3 class="tab-links" onclick="openTab('education')">education</h3>
+        </div>
+
+        <div class="tab-content active-tab" id="skills">
+          <ul>
+            <li><span>UI/ux</span><br>designing web/app interfaces</li>
+            <li><span>web development</span><br>web app development</li>
+            <li><span>app development</span><br>building android/ios app</li>
+          </ul>
+        </div>
+
+        <div class="tab-content" id="experience">
+          <ul>
+            <li><span>2022 - 2023</span><br>internship at ecomerce</li>
+            <li><span>2022 - current</span><br>web development training</li>
+            <li><span>2019 - 2021</span><br>ui/ux design executive</li>
+          </ul>
+        </div>
+
+        <div class="tab-content" id="education">
+          <ul>
+            <li><span>2022</span><br>studying at university</li>
+            <li><span>2019 - 2021</span><br>intermediate pass out</li>
+            <li><span>2017 - 2019</span><br>secondary school</li>
+          </ul>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- =============== services starts =============== -->
+  <div class="container" id="services">
+    <h1 class="title" data-aos="fade-left">my services</h1>
+    <div class="row">
+      <div class="col-3 services" data-aos="fade-right">
+        <i class="fa-solid fa-code"></i>
+        <h2>web designer</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet est debitis, magnam recusandae error
+          reiciendis suscipit fugit fugiat laborum aperiam </p>
+        <a href="">learn more</a>
+      </div>
+      <div class="col-3 services" data-aos="zoom-in">
+        <i class="fa-solid fa-crop-simple"></i>
+        <h2>ui/ux designer</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet est debitis, magnam recusandae error
+          reiciendis suscipit fugit fugiat laborum aperiam </p>
+        <a href="">learn more</a>
+      </div>
+      <div class="col-3 services" data-aos="fade-left">
+        <i class="fa-brands fa-adn"></i>
+        <h2>app designer</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet est debitis, magnam recusandae error
+          reiciendis suscipit fugit fugiat laborum aperiam </p>
+        <a href="">learn more</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- =============== services ends =============== -->
+
+  <!-- =============== work starts =============== -->
+  <div class="container" id="work">
+    <h1 class="title" data-aos="fade-left">my work</h1>
+    <div class="row">
+
+      <div class="col-3 work" data-aos="fade-right">
+        <img src="images/social media-app.jpg" alt="">
+        <div class="work-text">
+          <h3>E-Comerce Website</h3>
+          <p>A fully responsive E-Comerce Red Store website by using html, css and javaScript.<br>
+            if you want to check this website and see more then click on the external link and see more about this
+            website</p>
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </div>
+      </div>
+
+      <div class="col-3 work" data-aos="zoom-out">
+        <img src="images/music-app.jpg" alt="">
+        <div class="work-text">
+          <h3>Car rentals website</h3>
+          <p>A fully responsive Car rentals website by using html, css and javaScript.<br>
+            if you want to check this website see more then click on the external link and see more about this website
+          </p>
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </div>
+      </div>
+
+      <div class="col-3 work" data-aos="fade-left">
+        <img src="images/shopping-app.jpg" alt="">
+        <div class="work-text">
+          <h3>Online shopping app</h3>
+          <p>A fully responsive Car rentals website by using html, css and javaScript.<br>
+            if you want to check this website see more then click on the external link and see more about this website
+          </p>
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </div>
+      </div>
+
+    </div>
+    <div class="button" data-aos="zoom-in">
+      <a href="work.html" class="btn work-btn" target="_blank">See more</a>
+    </div>
+  </div>
+  <!-- =============== work ends =============== -->
+
+  <!-- =============== contact starts =============== -->
+  <div class="container" id="contact">
+    <div class="row contact">
+
+      <div class="col-2 contact-left" data-aos="fade-right">
+        <h1 class="title">contact me</h1>
+
+        <div class="info">
+          <i class="fa-solid fa-paper-plane"></i>
+          <p>nk8257949@gmail.com</p>
+        </div>
+
+        <div class="info">
+          <i class="fa-solid fa-phone"></i>
+          <p>03444170400</p>
+        </div>
+
+        <div class="social-icons">
+          <a href="https://www.facebook.com/profile.php?id=100017192357822" target="_blank"><i
+              class="fa-brands fa-facebook"></i></a>
+          <a href="https://twitter.com/NaseemK69128903" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.instagram.com/naseem_khan005/?hl=en" target="_blank"><i
+              class="fa-brands fa-instagram"></i></a>
+          <a href="https://github.com/NaseemKhan005" target="_blank"><i class="fa-brands fa-github-alt"></i></a>
+        </div>
+        <a href="images/naseem cv.pdf" download class="btn">download cv</a>
+      </div>
+
+      <div class="col-2 contact-right" data-aos="slide-left">
+        <form name="submit-to-google-sheet" onsubmit="return formValidation();" autocomplete="off">
+
+          <div class="input-box">
+            <input type="text" name="Name" placeholder="Your Name" id="name-input">
+            <span id="name-error"></span>
+          </div>
+
+          <div class="input-box">
+            <input type="tel" name="Phone No." placeholder="Your Phone No." id="phone-input">
+            <span id="phone-error"></span>
+          </div>
+
+          <div class="input-box">
+            <input type="email" name="Email" placeholder="Your Email" id="email-input">
+            <span id="email-error"></span>
+          </div>
+
+          <div class="input-box">
+            <textarea name="Message" cols="50" rows="5" placeholder="Message" id="msg-input"></textarea>
+            <span id="char-counter"></span>
+            <span id="msg-error"></span>
+          </div>
+
+          <div class="button">
+            <button class="btn">submit</button>
+            <span id="submit-msg"></span>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- =============== contact ends =============== -->
+
+  <!-- =============== footer =============== -->
+  <footer>
+    <p>Copyright © 2022 Naseem Khan | All right reserved</p>
+  </footer>
+
+  <!-- ======== cdn fontawesome ======= -->
+  <script src="https://kit.fontawesome.com/c18b08c464.js" crossorigin="anonymous"></script>
+
+  <!-- ======== cdn auto typing ======= -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+
+  <!-- ======== cdn smooth scrolling ======= -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- ======== js animate on scroll ======= -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 200,
+      duration: 1000
+    });
+  </script>
+
+  <!-- ======== js file link ======= -->
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
